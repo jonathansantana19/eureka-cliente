@@ -14,8 +14,8 @@ public class EurekaClientApplication {
 //		SpringApplication.run(EurekaClientApplication.class, args);
 		ApplicationContext ctx =  SpringApplication.run(EurekaClientApplication.class, args);
 		
-		JmsTemplate jms = ctx.getBean (JmsTemplate.class);
-		jms.convertAndSend ("javainuse", "mensagem de teste");
+//		JmsTemplate jms = ctx.getBean (JmsTemplate.class);
+//		jms.convertAndSend ("javainuse", "mensagem de teste");
 	}
 
 }
